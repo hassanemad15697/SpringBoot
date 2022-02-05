@@ -13,5 +13,9 @@ public class MainController {
     public String test() {
         return "HI HASSAN!";
     }
+    @GetMapping("/age")
+    public String age() {
+        return "24!";
+    }
 }
   
